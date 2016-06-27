@@ -1,0 +1,9 @@
+C:\Dev\Projects\angular-fileupload-sample\src\AspNetWebApi\bin\AspNetWebApi.dll.config
+C:\Dev\Projects\angular-fileupload-sample\src\AspNetWebApi\bin\AspNetWebApi.dll
+C:\Dev\Projects\angular-fileupload-sample\src\AspNetWebApi\bin\AspNetWebApi.pdb
+C:\Dev\Projects\angular-fileupload-sample\src\AspNetWebApi\bin\System.Web.Cors.dll
+C:\Dev\Projects\angular-fileupload-sample\src\AspNetWebApi\bin\System.Web.Http.Cors.dll
+C:\Dev\Projects\angular-fileupload-sample\src\AspNetWebApi\bin\System.Web.Http.Cors.xml
+C:\Dev\Projects\angular-fileupload-sample\src\AspNetWebApi\obj\Debug\AspNetWebApi.dll
+C:\Dev\Projects\angular-fileupload-sample\src\AspNetWebApi\obj\Debug\AspNetWebApi.pdb
+C:\Dev\Projects\angular-fileupload-sample\src\AspNetWebApi\obj\Debug\AspNetWebApi.csprojResolveAssemblyReference.cache

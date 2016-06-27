@@ -46,18 +46,22 @@
           Upload.upload({
               url: apiUrl,
               data: { file: files }
-            })
-            .then(function(response) {
 
+          }).then(function (resp) {
+              toastr.success(resp.data)
               activate();
               setPreviewPhoto();
-       
-            }, function(err) {
-              console.log("Error status: " + err.status);
-              vm.spinner.active = false;
-            });
 
-          $window.location.reload();
+          }, function (resp) {
+              toastr.error(resp.data)
+              vm.spinner.active = false;
+
+          }, function (evt) {
+              var progressPercentage = parseInt(100.0 * evt.loaded / evt.total);
+              //console.log('progress: ' + progressPercentage + '% ' + evt.config.data.file.name);
+          });
+
+          //$window.location.reload();
         }
 
         function removePhoto(photo) {
